@@ -68,7 +68,7 @@ For example:
 
 ```bash
 cat database.yml.system_test.url
-https://config1.apollogrp.edu/blaster/trunk/release_the_kraken/database.yml.system_test.data
+https://config1.example.com/blaster/trunk/myapp/database.yml.system_test.data
 ```
 
 When you use a ".url" file you will have to pass the appropriate SVN credentials to blaster. This allows the release team access to the sensitive data only.
