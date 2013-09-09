@@ -74,7 +74,7 @@ https://config1.example.com/blaster/trunk/myapp/database.yml.system_test.data
 When you use a ".url" file you will have to pass the appropriate SVN credentials to blaster. This allows the release team access to the sensitive data only.
 
 ```bash
-blaster.sh -e development -u svc_radt -p ******
+blaster.sh -e development -u svc_user -p ******
 ```
 
 ## Sample Setup
