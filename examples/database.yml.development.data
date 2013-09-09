@@ -1,0 +1,5 @@
+s/%%DATABASE_NAME%%/myapps_development/g
+s/%%DATABASE_USER%%/root/g
+s/%%DATABASE_PASS%%//g
+s/%%DATABASE_HOST%%/localhost/g
+s/%%DATABASE_PORT%%/3306/g

@@ -1,0 +1,1 @@
+../blasther.sh -e production

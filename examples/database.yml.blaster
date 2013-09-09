@@ -1,0 +1,7 @@
+development:
+  adapter: mysql2
+  database: %%DATABASE_NAME%%
+  username: %%DATABASE_USER%%
+  password: %%DATABASE_PASS%%
+  host: %%DATABASE_HOST%%
+  port: %%DATABASE_PORT%%

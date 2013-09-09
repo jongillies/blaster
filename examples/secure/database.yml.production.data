@@ -1,0 +1,5 @@
+s/%%DATABASE_NAME%%/myapps_production/g
+s/%%DATABASE_USER%%/myapps-user/g
+s/%%DATABASE_PASS%%/password/g
+s/%%DATABASE_HOST%%/database1.example.com/g
+s/%%DATABASE_PORT%%/3306/g
