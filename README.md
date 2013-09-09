@@ -14,6 +14,16 @@ The general idea is that Blaster will merge a *.blaster file with a *.environmen
 
 Developers will run the "blaster" command and it will recurivly search the current directory for *.blaster files and create your config files for your development environment. This is the exact same procedure the release team performs before going to system_test or production. The advantage here is that you, as the developer, are always testing the *.blaster file and it's replacement file for that environment.
 
+## Requirements
+
+* Bash (Cygwin for Windows)
+* find
+* wget
+* sed
+* rm
+* cp
+* Subversion reporitory for production token replacment files, but not required
+
 ## Identify your config files with passwords or specific environment data.
 
 Look for files that have any "sensitive" information like user id's or passwords.  You can also identify any environment specific items.  For example:
@@ -67,8 +77,8 @@ Blaster will read a file called *environment.data first, if that does not exist 
 For example:
 
 ```bash
-cat database.yml.system_test.url
-https://config1.example.com/blaster/trunk/myapp/database.yml.system_test.data
+cat database.yml.production.url
+https://raw.github.com/jongillies/blaster/master/examples/secure/database.yml.production.data
 ```
 
 When you use a ".url" file you will have to pass the appropriate SVN credentials to blaster. This allows the release team access to the sensitive data only.
