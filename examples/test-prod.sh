@@ -1,1 +1,1 @@
-../blasther.sh -e production
+../blaster.sh -e production

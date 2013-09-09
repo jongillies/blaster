@@ -1,1 +1,1 @@
-../blasther.sh -e development
+../blaster.sh -e development
